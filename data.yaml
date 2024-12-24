@@ -1,0 +1,4 @@
+train: /Users/andrewdragoslavic/PycharmProjects/Pothole/potholes/output/train/images
+val: /Users/andrewdragoslavic/PycharmProjects/Pothole/potholes/output/val/images
+names:
+  0: pothole
