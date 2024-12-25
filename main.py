@@ -9,4 +9,6 @@ model = YOLO("yolov8n.pt")
 #
 # model.add_callback("on_train_epoch_end", on_train_epoch_end)
 
-results = model.train(data="data.yaml", epochs=50, imgsz = 640)
+train_results = model.train(data="data.yaml", epochs=50, imgsz = 640)
+
+model.export()
